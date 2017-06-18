@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "542438932722",
+    "firebase_url": "https://fir-kartla.firebaseio.com",
+    "project_id": "firebase-kartla",
+    "storage_bucket": "firebase-kartla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542438932722:android:8132269cae3b120a",
+        "android_client_info": {
+          "package_name": "com.example.gowthamg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542438932722-cs98n66v74tdn0puqfd6qr6d2njpi9sn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "542438932722-jop40jgvlph855gh5c8ar2ae01bd03e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPjD0j1IUPS-jb3gIEht68ZOurEUzuqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffcce0"
+    >
+
+    <ImageView android:id="@+id/welcome"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_height="140dp"
+        android:src="@drawable/welcome"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/to"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/to"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/kart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/kartlaimage"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>

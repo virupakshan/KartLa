@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    android:background="#ffffff">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:id="@+id/kartla_image"/>
+   <Button
+       android:id="@+id/about_us"
+       android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:layout_marginTop="5dp"
+       android:text="About Us"
+       android:textSize="20dp"
+       android:textColor="#000000"
+
+       android:background="#ffffff"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+         <EditText
+             android:id="@+id/get_specific"
+             android:layout_marginLeft="20dp"
+             android:layout_width="230dp"
+             android:layout_height="50dp"
+             android:layout_marginTop="10dp"
+             android:hint="Get specific here..."
+             android:layout_gravity="center"
+
+             android:textAlignment="center"
+             />
+              <ImageButton
+                  android:id="@+id/getspecificclear"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  android:layout_marginTop="20dp"
+                  android:src="@drawable/blackie_clear"
+                  android:scaleType="centerCrop"
+                  android:background="#FEFEFE"
+                  />
+              <ImageButton
+                  android:id="@+id/go_button"
+                  android:layout_width="50dp"
+                  android:layout_height="45dp"
+                  android:layout_marginLeft="12dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/blue_go"
+                  android:scaleType="centerCrop"
+                  android:background="#FEFEFE"
+                  />
+
+
+          </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+   <fragment
+       android:id="@+id/place_autocomplete_fragment"
+       android:layout_width="300dp"
+       android:layout_height="45dp"
+       android:layout_marginTop="20dp"
+       android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+       />
+
+       <ImageButton
+           android:id="@+id/get_location"
+           android:layout_width="50dp"
+           android:layout_height="40dp"
+           android:layout_marginTop="20dp"
+           android:src="@drawable/location_icon"
+           android:scaleType="centerCrop"
+           android:background="#FEFEFE"
+           />
+
+   </LinearLayout>
+
+
+   <TextView
+       android:id="@+id/Adrress_field"
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:layout_marginTop="20dp"
+       android:textSize="20sp"
+
+       android:text="NOTE : Your Address : Either press Get Current Location or type your area"
+       android:textAlignment="center"/>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+              <AutoCompleteTextView
+       android:id="@+id/category_At"
+       android:layout_width="315dp"
+       android:layout_height="40dp"
+       android:textAlignment="center"
+       android:completionThreshold="1"
+       android:dropDownVerticalOffset="5dp"
+       android:dropDownWidth="wrap_content"
+                  android:layout_marginTop="8dp"
+
+
+       android:hint="What are you looking for?"
+       />
+
+              <ImageButton
+                  android:id="@+id/autotextviewclear"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  android:layout_marginTop="8dp"
+                  android:src="@drawable/closeblue"
+                  android:scaleType="centerCrop"
+                  android:background="#FEFEFE"
+                  />
+
+
+
+          </LinearLayout>
+
+
+   <Spinner
+       android:id="@+id/km_spinner"
+       android:layout_width="120dp"
+       android:layout_height="50dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="5dp"
+       android:prompt="@string/kilometer"
+       />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+     android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:backgroundTint="#07329F"
+        android:background="@drawable/rounded_corner"
+       />
+      </LinearLayout>
+   </ScrollView>
+</LinearLayout>
+

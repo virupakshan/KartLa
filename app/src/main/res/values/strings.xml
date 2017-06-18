@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KartLa</string>
+    <string name="place_details">place</string>
+    <string name="title_activity_shop_display">Map</string>
+    <string name="title_activity_individual_shop_display">Map</string>
+    <string name="title_activity_shop__full__details">Map</string>
+    <string-array name="kms">
+
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>3 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>100 km</item>
+
+
+    </string-array>
+
+
+    <string name="kilometer">Kilometers</string>
+    <string name="title_activity_full__map__view">Map</string>
+    <string name="title_activity_map__expand_all_shops">Map</string>
+
+</resources>
